@@ -10,7 +10,6 @@
 | GET    | /hello     | "Hello, 백엔더 주원이의 첫 API 만들기!!" 반환 |
 | GET    | /ping      | "pong" 반환 (헬스체크용)   |
 
-## Day 1- Hello API
 - Spring Boot 프로젝트 구조 이해
 - `@RestController`, `@GetMapping` 역할
 - URL 구성 원리 (`localhost:8080/hello`)
