@@ -40,7 +40,7 @@ public class HelloController {
     // Day 3: 메모 추가, POST
     private final List<String> memos = new ArrayList<>();
 
-    @PostMapping("/memo")
+    //@PostMapping("/memo")
     public String addMemo(@RequestBody Map<String, String> request) {
         String content = request.get("content");
         memos.add(content);
