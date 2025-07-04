@@ -20,3 +20,8 @@
 ## Day 3 - 메모 API
 - `POST /memo` → content 받기
 - `GET /memos` → 저장된 메모 리스트
+
+## Day 4 - 메모 상세 & 삭제 API
+
+- GET /memo/{id} → 특정 id 메모 조회
+- DELETE /memo/{id} → 특정 id 메모 삭제
